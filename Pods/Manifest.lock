@@ -1,0 +1,16 @@
+PODS:
+  - ProvideManager (0.1.4)
+
+DEPENDENCIES:
+  - ProvideManager
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ProvideManager
+
+SPEC CHECKSUMS:
+  ProvideManager: d099cb7337bdbd52679da70b09fbb5994a6315ff
+
+PODFILE CHECKSUM: f75a5f528fd5a8dce6dbc730c81cfcb86f6c367e
+
+COCOAPODS: 1.5.3

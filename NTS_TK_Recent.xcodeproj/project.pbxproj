@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3322FB6320C000890090DDA7 /* call_appear.png in Resources */ = {isa = PBXBuildFile; fileRef = 3322FB4B20C000880090DDA7 /* call_appear.png */; };
+		3322FB6420C000890090DDA7 /* call_join.png in Resources */ = {isa = PBXBuildFile; fileRef = 3322FB4C20C000880090DDA7 /* call_join.png */; };
+		3322FB6520C000890090DDA7 /* call_noanswer.png in Resources */ = {isa = PBXBuildFile; fileRef = 3322FB4D20C000880090DDA7 /* call_noanswer.png */; };
+		3322FB6620C000890090DDA7 /* AddressBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322FB5120C000890090DDA7 /* AddressBookModel.m */; };
+		3322FB6720C000890090DDA7 /* Data.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 3322FB5220C000890090DDA7 /* Data.sqlite */; };
+		3322FB6820C000890090DDA7 /* SQLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322FB5420C000890090DDA7 /* SQLHelper.m */; };
+		3322FB6920C000890090DDA7 /* StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322FB5620C000890090DDA7 /* StringHelper.m */; };
+		3322FB6A20C000890090DDA7 /* RecentCallObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322FB5820C000890090DDA7 /* RecentCallObject.m */; };
+		3322FB6B20C000890090DDA7 /* RecentCallServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322FB5A20C000890090DDA7 /* RecentCallServiceProvide.m */; };
+		3322FB6C20C000890090DDA7 /* RecentCallsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322FB5C20C000890090DDA7 /* RecentCallsTableViewCell.m */; };
+		3322FB6D20C000890090DDA7 /* RecentCallsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3322FB5D20C000890090DDA7 /* RecentCallsTableViewCell.xib */; };
+		3322FB6E20C000890090DDA7 /* RecentCallsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322FB5F20C000890090DDA7 /* RecentCallsViewController.m */; };
+		3322FB6F20C000890090DDA7 /* RecentCallsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3322FB6020C000890090DDA7 /* RecentCallsViewController.xib */; };
+		3322FB7020C000890090DDA7 /* RecentTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322FB6220C000890090DDA7 /* RecentTool.m */; };
+		33CC94B420BF8EAF0026819C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CC94B320BF8EAF0026819C /* AppDelegate.m */; };
+		33CC94B720BF8EAF0026819C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CC94B620BF8EAF0026819C /* ViewController.m */; };
+		33CC94BA20BF8EAF0026819C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CC94B820BF8EAF0026819C /* Main.storyboard */; };
+		33CC94BC20BF8EAF0026819C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CC94BB20BF8EAF0026819C /* Assets.xcassets */; };
+		33CC94BF20BF8EAF0026819C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CC94BD20BF8EAF0026819C /* LaunchScreen.storyboard */; };
+		33CC94C220BF8EAF0026819C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CC94C120BF8EAF0026819C /* main.m */; };
+		6B555C38EA8FFBCA984B5F4E /* Pods_NTS_TK_Recent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED86BF6A590C87386D65A1D /* Pods_NTS_TK_Recent.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3322FB4B20C000880090DDA7 /* call_appear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_appear.png; sourceTree = "<group>"; };
+		3322FB4C20C000880090DDA7 /* call_join.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_join.png; sourceTree = "<group>"; };
+		3322FB4D20C000880090DDA7 /* call_noanswer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_noanswer.png; sourceTree = "<group>"; };
+		3322FB5020C000890090DDA7 /* AddressBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookModel.h; sourceTree = "<group>"; };
+		3322FB5120C000890090DDA7 /* AddressBookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookModel.m; sourceTree = "<group>"; };
+		3322FB5220C000890090DDA7 /* Data.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Data.sqlite; sourceTree = "<group>"; };
+		3322FB5320C000890090DDA7 /* SQLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLHelper.h; sourceTree = "<group>"; };
+		3322FB5420C000890090DDA7 /* SQLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLHelper.m; sourceTree = "<group>"; };
+		3322FB5520C000890090DDA7 /* StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringHelper.h; sourceTree = "<group>"; };
+		3322FB5620C000890090DDA7 /* StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringHelper.m; sourceTree = "<group>"; };
+		3322FB5720C000890090DDA7 /* RecentCallObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentCallObject.h; sourceTree = "<group>"; };
+		3322FB5820C000890090DDA7 /* RecentCallObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentCallObject.m; sourceTree = "<group>"; };
+		3322FB5920C000890090DDA7 /* RecentCallServiceProvide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentCallServiceProvide.h; sourceTree = "<group>"; };
+		3322FB5A20C000890090DDA7 /* RecentCallServiceProvide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentCallServiceProvide.m; sourceTree = "<group>"; };
+		3322FB5B20C000890090DDA7 /* RecentCallsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentCallsTableViewCell.h; sourceTree = "<group>"; };
+		3322FB5C20C000890090DDA7 /* RecentCallsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentCallsTableViewCell.m; sourceTree = "<group>"; };
+		3322FB5D20C000890090DDA7 /* RecentCallsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentCallsTableViewCell.xib; sourceTree = "<group>"; };
+		3322FB5E20C000890090DDA7 /* RecentCallsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentCallsViewController.h; sourceTree = "<group>"; };
+		3322FB5F20C000890090DDA7 /* RecentCallsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentCallsViewController.m; sourceTree = "<group>"; };
+		3322FB6020C000890090DDA7 /* RecentCallsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentCallsViewController.xib; sourceTree = "<group>"; };
+		3322FB6120C000890090DDA7 /* RecentTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentTool.h; sourceTree = "<group>"; };
+		3322FB6220C000890090DDA7 /* RecentTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentTool.m; sourceTree = "<group>"; };
+		33CC94AF20BF8EAF0026819C /* NTS_TK_Recent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTS_TK_Recent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CC94B220BF8EAF0026819C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33CC94B320BF8EAF0026819C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33CC94B520BF8EAF0026819C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33CC94B620BF8EAF0026819C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33CC94B920BF8EAF0026819C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33CC94BB20BF8EAF0026819C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33CC94BE20BF8EAF0026819C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33CC94C020BF8EAF0026819C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CC94C120BF8EAF0026819C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33CC94D420BF92020026819C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3ED86BF6A590C87386D65A1D /* Pods_NTS_TK_Recent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NTS_TK_Recent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB8DED45872183F767B0E34 /* Pods-NTS_TK_Recent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTS_TK_Recent.release.xcconfig"; path = "Pods/Target Support Files/Pods-NTS_TK_Recent/Pods-NTS_TK_Recent.release.xcconfig"; sourceTree = "<group>"; };
+		A980E0953067E196A6B392FE /* Pods-NTS_TK_Recent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTS_TK_Recent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NTS_TK_Recent/Pods-NTS_TK_Recent.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33CC94AC20BF8EAF0026819C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B555C38EA8FFBCA984B5F4E /* Pods_NTS_TK_Recent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B0466C28F4B1793A1C873C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A980E0953067E196A6B392FE /* Pods-NTS_TK_Recent.debug.xcconfig */,
+				8AB8DED45872183F767B0E34 /* Pods-NTS_TK_Recent.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3322FB4A20C000880090DDA7 /* RecentIcon */ = {
+			isa = PBXGroup;
+			children = (
+				3322FB4B20C000880090DDA7 /* call_appear.png */,
+				3322FB4C20C000880090DDA7 /* call_join.png */,
+				3322FB4D20C000880090DDA7 /* call_noanswer.png */,
+			);
+			path = RecentIcon;
+			sourceTree = "<group>";
+		};
+		3322FB4E20C000890090DDA7 /* NTS_TK_Recent */ = {
+			isa = PBXGroup;
+			children = (
+				3322FB4F20C000890090DDA7 /* PhoneAttribution */,
+				3322FB5720C000890090DDA7 /* RecentCallObject.h */,
+				3322FB5820C000890090DDA7 /* RecentCallObject.m */,
+				3322FB5920C000890090DDA7 /* RecentCallServiceProvide.h */,
+				3322FB5A20C000890090DDA7 /* RecentCallServiceProvide.m */,
+				3322FB5B20C000890090DDA7 /* RecentCallsTableViewCell.h */,
+				3322FB5C20C000890090DDA7 /* RecentCallsTableViewCell.m */,
+				3322FB5D20C000890090DDA7 /* RecentCallsTableViewCell.xib */,
+				3322FB5E20C000890090DDA7 /* RecentCallsViewController.h */,
+				3322FB5F20C000890090DDA7 /* RecentCallsViewController.m */,
+				3322FB6020C000890090DDA7 /* RecentCallsViewController.xib */,
+				3322FB6120C000890090DDA7 /* RecentTool.h */,
+				3322FB6220C000890090DDA7 /* RecentTool.m */,
+			);
+			path = NTS_TK_Recent;
+			sourceTree = "<group>";
+		};
+		3322FB4F20C000890090DDA7 /* PhoneAttribution */ = {
+			isa = PBXGroup;
+			children = (
+				3322FB5020C000890090DDA7 /* AddressBookModel.h */,
+				3322FB5120C000890090DDA7 /* AddressBookModel.m */,
+				3322FB5220C000890090DDA7 /* Data.sqlite */,
+				3322FB5320C000890090DDA7 /* SQLHelper.h */,
+				3322FB5420C000890090DDA7 /* SQLHelper.m */,
+				3322FB5520C000890090DDA7 /* StringHelper.h */,
+				3322FB5620C000890090DDA7 /* StringHelper.m */,
+			);
+			path = PhoneAttribution;
+			sourceTree = "<group>";
+		};
+		33CC94A620BF8EAF0026819C = {
+			isa = PBXGroup;
+			children = (
+				33CC94B120BF8EAF0026819C /* NTS_TK_Recent */,
+				33CC94B020BF8EAF0026819C /* Products */,
+				33CC94D320BF92020026819C /* Frameworks */,
+				1B0466C28F4B1793A1C873C8 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		33CC94B020BF8EAF0026819C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33CC94AF20BF8EAF0026819C /* NTS_TK_Recent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33CC94B120BF8EAF0026819C /* NTS_TK_Recent */ = {
+			isa = PBXGroup;
+			children = (
+				33CC94B220BF8EAF0026819C /* AppDelegate.h */,
+				33CC94B320BF8EAF0026819C /* AppDelegate.m */,
+				33CC94B520BF8EAF0026819C /* ViewController.h */,
+				33CC94B620BF8EAF0026819C /* ViewController.m */,
+				3322FB4E20C000890090DDA7 /* NTS_TK_Recent */,
+				3322FB4A20C000880090DDA7 /* RecentIcon */,
+				33CC94B820BF8EAF0026819C /* Main.storyboard */,
+				33CC94BB20BF8EAF0026819C /* Assets.xcassets */,
+				33CC94BD20BF8EAF0026819C /* LaunchScreen.storyboard */,
+				33CC94C020BF8EAF0026819C /* Info.plist */,
+				33CC94C120BF8EAF0026819C /* main.m */,
+			);
+			path = NTS_TK_Recent;
+			sourceTree = "<group>";
+		};
+		33CC94D320BF92020026819C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33CC94D420BF92020026819C /* libsqlite3.tbd */,
+				3ED86BF6A590C87386D65A1D /* Pods_NTS_TK_Recent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33CC94AE20BF8EAF0026819C /* NTS_TK_Recent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CC94C520BF8EAF0026819C /* Build configuration list for PBXNativeTarget "NTS_TK_Recent" */;
+			buildPhases = (
+				3557FB042AB223ADE22BCFE2 /* [CP] Check Pods Manifest.lock */,
+				33CC94AB20BF8EAF0026819C /* Sources */,
+				33CC94AC20BF8EAF0026819C /* Frameworks */,
+				33CC94AD20BF8EAF0026819C /* Resources */,
+				AB8CF70DB678125DA1F327C6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTS_TK_Recent;
+			productName = NTS_TK_Recent;
+			productReference = 33CC94AF20BF8EAF0026819C /* NTS_TK_Recent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33CC94A720BF8EAF0026819C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = zt;
+				TargetAttributes = {
+					33CC94AE20BF8EAF0026819C = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 33CC94AA20BF8EAF0026819C /* Build configuration list for PBXProject "NTS_TK_Recent" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33CC94A620BF8EAF0026819C;
+			productRefGroup = 33CC94B020BF8EAF0026819C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33CC94AE20BF8EAF0026819C /* NTS_TK_Recent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33CC94AD20BF8EAF0026819C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3322FB6D20C000890090DDA7 /* RecentCallsTableViewCell.xib in Resources */,
+				33CC94BF20BF8EAF0026819C /* LaunchScreen.storyboard in Resources */,
+				3322FB6F20C000890090DDA7 /* RecentCallsViewController.xib in Resources */,
+				3322FB6420C000890090DDA7 /* call_join.png in Resources */,
+				33CC94BC20BF8EAF0026819C /* Assets.xcassets in Resources */,
+				3322FB6320C000890090DDA7 /* call_appear.png in Resources */,
+				3322FB6720C000890090DDA7 /* Data.sqlite in Resources */,
+				3322FB6520C000890090DDA7 /* call_noanswer.png in Resources */,
+				33CC94BA20BF8EAF0026819C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3557FB042AB223ADE22BCFE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NTS_TK_Recent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB8CF70DB678125DA1F327C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NTS_TK_Recent/Pods-NTS_TK_Recent-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ProvideManager/ProvideManager.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProvideManager.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NTS_TK_Recent/Pods-NTS_TK_Recent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33CC94AB20BF8EAF0026819C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3322FB6A20C000890090DDA7 /* RecentCallObject.m in Sources */,
+				33CC94B720BF8EAF0026819C /* ViewController.m in Sources */,
+				3322FB6820C000890090DDA7 /* SQLHelper.m in Sources */,
+				33CC94C220BF8EAF0026819C /* main.m in Sources */,
+				3322FB6B20C000890090DDA7 /* RecentCallServiceProvide.m in Sources */,
+				33CC94B420BF8EAF0026819C /* AppDelegate.m in Sources */,
+				3322FB6920C000890090DDA7 /* StringHelper.m in Sources */,
+				3322FB6620C000890090DDA7 /* AddressBookModel.m in Sources */,
+				3322FB6C20C000890090DDA7 /* RecentCallsTableViewCell.m in Sources */,
+				3322FB7020C000890090DDA7 /* RecentTool.m in Sources */,
+				3322FB6E20C000890090DDA7 /* RecentCallsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33CC94B820BF8EAF0026819C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33CC94B920BF8EAF0026819C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33CC94BD20BF8EAF0026819C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33CC94BE20BF8EAF0026819C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33CC94C320BF8EAF0026819C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33CC94C420BF8EAF0026819C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33CC94C620BF8EAF0026819C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A980E0953067E196A6B392FE /* Pods-NTS_TK_Recent.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NTS_TK_Recent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zt.NTS-TK-Recent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33CC94C720BF8EAF0026819C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB8DED45872183F767B0E34 /* Pods-NTS_TK_Recent.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NTS_TK_Recent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zt.NTS-TK-Recent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33CC94AA20BF8EAF0026819C /* Build configuration list for PBXProject "NTS_TK_Recent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CC94C320BF8EAF0026819C /* Debug */,
+				33CC94C420BF8EAF0026819C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33CC94C520BF8EAF0026819C /* Build configuration list for PBXNativeTarget "NTS_TK_Recent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CC94C620BF8EAF0026819C /* Debug */,
+				33CC94C720BF8EAF0026819C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33CC94A720BF8EAF0026819C /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module ProvideManager {
+  umbrella header "ProvideManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
