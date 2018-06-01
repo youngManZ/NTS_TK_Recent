@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NTS_TK_Recent"
-  s.version      = "0.0.3"
+  s.version      = "0.0.5"
   s.summary      = "NTS_TK_Recent is tk recent."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "NTS_TK_Recent/NTS_TK_Recent/**/*.{h,m}"
+  s.source_files  = "NTS_TK_Recent/NTS_TK_Recent/**/*.{h,m,xib}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
