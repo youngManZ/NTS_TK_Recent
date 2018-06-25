@@ -90,20 +90,26 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		3322FB4A20C000880090DDA7 /* RecentIcon */ = {
+		3322FB4A20C000880090DDA7 /* NTS_TK_Recent.bundle */ = {
 			isa = PBXGroup;
 			children = (
+				3322FB5220C000890090DDA7 /* Data.sqlite */,
 				3322FB4B20C000880090DDA7 /* call_appear.png */,
 				3322FB4C20C000880090DDA7 /* call_join.png */,
 				3322FB4D20C000880090DDA7 /* call_noanswer.png */,
 			);
-			path = RecentIcon;
+			path = NTS_TK_Recent.bundle;
 			sourceTree = "<group>";
 		};
 		3322FB4E20C000890090DDA7 /* NTS_TK_Recent */ = {
 			isa = PBXGroup;
 			children = (
-				3322FB4F20C000890090DDA7 /* PhoneAttribution */,
+				3322FB5020C000890090DDA7 /* AddressBookModel.h */,
+				3322FB5120C000890090DDA7 /* AddressBookModel.m */,
+				3322FB5320C000890090DDA7 /* SQLHelper.h */,
+				3322FB5420C000890090DDA7 /* SQLHelper.m */,
+				3322FB5520C000890090DDA7 /* StringHelper.h */,
+				3322FB5620C000890090DDA7 /* StringHelper.m */,
 				3322FB5720C000890090DDA7 /* RecentCallObject.h */,
 				3322FB5820C000890090DDA7 /* RecentCallObject.m */,
 				3322FB5920C000890090DDA7 /* RecentCallServiceProvide.h */,
@@ -118,20 +124,6 @@
 				3322FB6220C000890090DDA7 /* RecentTool.m */,
 			);
 			path = NTS_TK_Recent;
-			sourceTree = "<group>";
-		};
-		3322FB4F20C000890090DDA7 /* PhoneAttribution */ = {
-			isa = PBXGroup;
-			children = (
-				3322FB5020C000890090DDA7 /* AddressBookModel.h */,
-				3322FB5120C000890090DDA7 /* AddressBookModel.m */,
-				3322FB5220C000890090DDA7 /* Data.sqlite */,
-				3322FB5320C000890090DDA7 /* SQLHelper.h */,
-				3322FB5420C000890090DDA7 /* SQLHelper.m */,
-				3322FB5520C000890090DDA7 /* StringHelper.h */,
-				3322FB5620C000890090DDA7 /* StringHelper.m */,
-			);
-			path = PhoneAttribution;
 			sourceTree = "<group>";
 		};
 		33CC94A620BF8EAF0026819C = {
@@ -160,7 +152,7 @@
 				33CC94B520BF8EAF0026819C /* ViewController.h */,
 				33CC94B620BF8EAF0026819C /* ViewController.m */,
 				3322FB4E20C000890090DDA7 /* NTS_TK_Recent */,
-				3322FB4A20C000880090DDA7 /* RecentIcon */,
+				3322FB4A20C000880090DDA7 /* NTS_TK_Recent.bundle */,
 				33CC94B820BF8EAF0026819C /* Main.storyboard */,
 				33CC94BB20BF8EAF0026819C /* Assets.xcassets */,
 				33CC94BD20BF8EAF0026819C /* LaunchScreen.storyboard */,

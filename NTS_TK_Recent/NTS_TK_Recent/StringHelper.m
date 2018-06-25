@@ -19,8 +19,8 @@
 + (NSString *)getDataBasePath
 {
     NSBundle *curBundle = [NSBundle bundleForClass:self.class];
-    NSString *normalPath = [curBundle pathForResource:@"Data" ofType:@"sqlite"];
-//    NSString *path = [[NSBundle mainBundle] pathForResource:@"Data" ofType:@"sqlite"];
+    NSURL *url = [curBundle URLForResource:@"NTS_TK_Recent" withExtension:@"bundle"];
+    NSString *normalPath = [[NSBundle bundleWithURL:url] pathForResource:@"Data" ofType:@"sqlite"];
     return normalPath;
 }
 

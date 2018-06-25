@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NTS_TK_Recent"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "NTS_TK_Recent is tk recent."
 
   # This description is used to generate tags and improve search results.
@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "NTS_TK_Recent/RecentIcon/*.png","NTS_TK_Recent/NTS_TK_Recent/*.xib","NTS_TK_Recent/NTS_TK_Recent/*.sqlite"
+  s.resources = "NTS_TK_Recent/NTS_TK_Recent.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
