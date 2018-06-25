@@ -116,14 +116,21 @@
 				3322FB5A20C000890090DDA7 /* RecentCallServiceProvide.m */,
 				3322FB5B20C000890090DDA7 /* RecentCallsTableViewCell.h */,
 				3322FB5C20C000890090DDA7 /* RecentCallsTableViewCell.m */,
-				3322FB5D20C000890090DDA7 /* RecentCallsTableViewCell.xib */,
 				3322FB5E20C000890090DDA7 /* RecentCallsViewController.h */,
 				3322FB5F20C000890090DDA7 /* RecentCallsViewController.m */,
-				3322FB6020C000890090DDA7 /* RecentCallsViewController.xib */,
 				3322FB6120C000890090DDA7 /* RecentTool.h */,
 				3322FB6220C000890090DDA7 /* RecentTool.m */,
 			);
 			path = NTS_TK_Recent;
+			sourceTree = "<group>";
+		};
+		338B3FE020E089FE00379F2D /* XibPackage */ = {
+			isa = PBXGroup;
+			children = (
+				3322FB5D20C000890090DDA7 /* RecentCallsTableViewCell.xib */,
+				3322FB6020C000890090DDA7 /* RecentCallsViewController.xib */,
+			);
+			path = XibPackage;
 			sourceTree = "<group>";
 		};
 		33CC94A620BF8EAF0026819C = {
@@ -151,6 +158,7 @@
 				33CC94B320BF8EAF0026819C /* AppDelegate.m */,
 				33CC94B520BF8EAF0026819C /* ViewController.h */,
 				33CC94B620BF8EAF0026819C /* ViewController.m */,
+				338B3FE020E089FE00379F2D /* XibPackage */,
 				3322FB4E20C000890090DDA7 /* NTS_TK_Recent */,
 				3322FB4A20C000880090DDA7 /* NTS_TK_Recent.bundle */,
 				33CC94B820BF8EAF0026819C /* Main.storyboard */,
