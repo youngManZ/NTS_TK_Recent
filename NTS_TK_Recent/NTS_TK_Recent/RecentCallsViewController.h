@@ -11,7 +11,8 @@
 
 @protocol RecentViewControllerDelegate <NSObject>
 
-- (void)recentViewControllerTableViewSelectWithRcentCall: (RecentCallObject *) recentCall cellTag : (NSInteger) cellTag;
+- (void)recentViewControllerTableViewSelectWithRcentCall: (RecentCallObject *) recentCall;
+- (void)recentViewControllerVerHeadViewBtnClickEvent;
 
 @end
 

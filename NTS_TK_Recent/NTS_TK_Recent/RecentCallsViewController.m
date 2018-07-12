@@ -98,6 +98,9 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     RecentCallObject *object = _datasource[indexPath .row];
     //点击拨打电话
+    if ([_delegate respondsToSelector:@selector(recentViewControllerTableViewSelectWithRcentCall:)]) {
+        [_delegate recentViewControllerTableViewSelectWithRcentCall:object];
+    }
 }
 
 - (void)setExtraCellLineHidden: (UITableView *)tableView
@@ -107,15 +110,9 @@
     [tableView setTableFooterView:view];
 }
 
-- (void)cellButtonPressed:(NSInteger)cellTag{
-    
-    RecentCallObject *object = _datasource[cellTag];
-    if ([_delegate respondsToSelector:@selector(recentViewControllerTableViewSelectWithRcentCall:cellTag:)]) {
-        [_delegate recentViewControllerTableViewSelectWithRcentCall:object cellTag:cellTag];
-    }else {
-    
-//        RecentCallsDetailMessageVC *vc = [[RecentCallsDetailMessageVC alloc]initWithNibName:@"RecentCallsDetailMessageVC" bundle:nil recentCallObject:object cellTag:cellTag];
-//        [self.navigationController pushViewController:vc animated:YES];
+- (IBAction)action_verBtnClickEvent:(id)sender {
+    if ([_delegate respondsToSelector:@selector(recentViewControllerVerHeadViewBtnClickEvent)]) {
+        [_delegate recentViewControllerVerHeadViewBtnClickEvent];
     }
 }
 

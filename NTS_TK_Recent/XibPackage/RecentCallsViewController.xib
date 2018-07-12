@@ -92,14 +92,24 @@
                         <constraint firstAttribute="width" constant="20" id="3wC-KS-hqS"/>
                     </constraints>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OdO-tF-uHa">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                    <connections>
+                        <action selector="action_verBtnClickEvent:" destination="-1" eventType="touchUpInside" id="x6Z-iD-hdL"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="OdO-tF-uHa" firstAttribute="trailing" secondItem="Jes-Ka-pSK" secondAttribute="trailing" id="0Ka-gw-IYU"/>
+                <constraint firstItem="OdO-tF-uHa" firstAttribute="top" secondItem="Jes-Ka-pSK" secondAttribute="top" id="PIk-V2-86H"/>
                 <constraint firstItem="gzp-nk-B9b" firstAttribute="centerY" secondItem="Bue-ih-awA" secondAttribute="centerY" id="ZDP-gw-PQd"/>
                 <constraint firstItem="7Pj-zp-TCL" firstAttribute="centerY" secondItem="Bue-ih-awA" secondAttribute="centerY" id="eIV-sG-Pv0"/>
                 <constraint firstItem="gzp-nk-B9b" firstAttribute="centerY" secondItem="Bue-ih-awA" secondAttribute="centerY" id="g6s-jc-cY7"/>
                 <constraint firstItem="gzp-nk-B9b" firstAttribute="leading" secondItem="7Pj-zp-TCL" secondAttribute="trailing" constant="5" id="hgz-qS-HAW"/>
+                <constraint firstAttribute="bottom" secondItem="OdO-tF-uHa" secondAttribute="bottom" id="mig-dU-wpz"/>
                 <constraint firstItem="gzp-nk-B9b" firstAttribute="centerX" secondItem="Bue-ih-awA" secondAttribute="centerX" id="vpq-UX-Yq5"/>
+                <constraint firstItem="OdO-tF-uHa" firstAttribute="leading" secondItem="Jes-Ka-pSK" secondAttribute="leading" id="w5o-Mo-LI5"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="Jes-Ka-pSK"/>
