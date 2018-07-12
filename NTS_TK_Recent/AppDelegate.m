@@ -21,7 +21,7 @@
     
     // 判断数据库的创建
     [RecentTool createDatabaseDirectoryWithUsername:@"18981204102"];
-    
+
     // 测试添加通话记录
     for (int i = 0; i < 5; i++) {
         RecentCallObject *object = [[RecentCallObject alloc] init];

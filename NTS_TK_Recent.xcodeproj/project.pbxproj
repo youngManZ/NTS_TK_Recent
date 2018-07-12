@@ -21,6 +21,12 @@
 		3322FB6E20C000890090DDA7 /* RecentCallsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322FB5F20C000890090DDA7 /* RecentCallsViewController.m */; };
 		3322FB6F20C000890090DDA7 /* RecentCallsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3322FB6020C000890090DDA7 /* RecentCallsViewController.xib */; };
 		3322FB7020C000890090DDA7 /* RecentTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322FB6220C000890090DDA7 /* RecentTool.m */; };
+		333DF12E20F6FB9F00B8DCF3 /* tis .png in Resources */ = {isa = PBXBuildFile; fileRef = 333DF12B20F6FB9F00B8DCF3 /* tis .png */; };
+		333DF12F20F6FB9F00B8DCF3 /* tis @2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 333DF12C20F6FB9F00B8DCF3 /* tis @2x.png */; };
+		333DF13020F6FB9F00B8DCF3 /* tis @3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 333DF12D20F6FB9F00B8DCF3 /* tis @3x.png */; };
+		333DF13420F6FBC900B8DCF3 /* zanwushuju.png in Resources */ = {isa = PBXBuildFile; fileRef = 333DF13120F6FBC900B8DCF3 /* zanwushuju.png */; };
+		333DF13520F6FBC900B8DCF3 /* zanwushuju@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 333DF13220F6FBC900B8DCF3 /* zanwushuju@3x.png */; };
+		333DF13620F6FBC900B8DCF3 /* zanwushuju@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 333DF13320F6FBC900B8DCF3 /* zanwushuju@2x.png */; };
 		33CC94B420BF8EAF0026819C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CC94B320BF8EAF0026819C /* AppDelegate.m */; };
 		33CC94B720BF8EAF0026819C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CC94B620BF8EAF0026819C /* ViewController.m */; };
 		33CC94BA20BF8EAF0026819C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CC94B820BF8EAF0026819C /* Main.storyboard */; };
@@ -53,6 +59,12 @@
 		3322FB6020C000890090DDA7 /* RecentCallsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentCallsViewController.xib; sourceTree = "<group>"; };
 		3322FB6120C000890090DDA7 /* RecentTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentTool.h; sourceTree = "<group>"; };
 		3322FB6220C000890090DDA7 /* RecentTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentTool.m; sourceTree = "<group>"; };
+		333DF12B20F6FB9F00B8DCF3 /* tis .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tis .png"; sourceTree = "<group>"; };
+		333DF12C20F6FB9F00B8DCF3 /* tis @2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tis @2x.png"; sourceTree = "<group>"; };
+		333DF12D20F6FB9F00B8DCF3 /* tis @3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tis @3x.png"; sourceTree = "<group>"; };
+		333DF13120F6FBC900B8DCF3 /* zanwushuju.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zanwushuju.png; sourceTree = "<group>"; };
+		333DF13220F6FBC900B8DCF3 /* zanwushuju@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zanwushuju@3x.png"; sourceTree = "<group>"; };
+		333DF13320F6FBC900B8DCF3 /* zanwushuju@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zanwushuju@2x.png"; sourceTree = "<group>"; };
 		33CC94AF20BF8EAF0026819C /* NTS_TK_Recent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTS_TK_Recent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CC94B220BF8EAF0026819C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33CC94B320BF8EAF0026819C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,6 +105,12 @@
 		3322FB4A20C000880090DDA7 /* NTS_TK_Recent.bundle */ = {
 			isa = PBXGroup;
 			children = (
+				333DF13120F6FBC900B8DCF3 /* zanwushuju.png */,
+				333DF13320F6FBC900B8DCF3 /* zanwushuju@2x.png */,
+				333DF13220F6FBC900B8DCF3 /* zanwushuju@3x.png */,
+				333DF12B20F6FB9F00B8DCF3 /* tis .png */,
+				333DF12C20F6FB9F00B8DCF3 /* tis @2x.png */,
+				333DF12D20F6FB9F00B8DCF3 /* tis @3x.png */,
 				3322FB5220C000890090DDA7 /* Data.sqlite */,
 				3322FB4B20C000880090DDA7 /* call_appear.png */,
 				3322FB4C20C000880090DDA7 /* call_join.png */,
@@ -239,15 +257,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				333DF13420F6FBC900B8DCF3 /* zanwushuju.png in Resources */,
 				3322FB6D20C000890090DDA7 /* RecentCallsTableViewCell.xib in Resources */,
+				333DF12E20F6FB9F00B8DCF3 /* tis .png in Resources */,
+				333DF13520F6FBC900B8DCF3 /* zanwushuju@3x.png in Resources */,
 				33CC94BF20BF8EAF0026819C /* LaunchScreen.storyboard in Resources */,
+				333DF13620F6FBC900B8DCF3 /* zanwushuju@2x.png in Resources */,
 				3322FB6F20C000890090DDA7 /* RecentCallsViewController.xib in Resources */,
 				3322FB6420C000890090DDA7 /* call_join.png in Resources */,
 				33CC94BC20BF8EAF0026819C /* Assets.xcassets in Resources */,
 				3322FB6320C000890090DDA7 /* call_appear.png in Resources */,
 				3322FB6720C000890090DDA7 /* Data.sqlite in Resources */,
 				3322FB6520C000890090DDA7 /* call_noanswer.png in Resources */,
+				333DF13020F6FB9F00B8DCF3 /* tis @3x.png in Resources */,
 				33CC94BA20BF8EAF0026819C /* Main.storyboard in Resources */,
+				333DF12F20F6FB9F00B8DCF3 /* tis @2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

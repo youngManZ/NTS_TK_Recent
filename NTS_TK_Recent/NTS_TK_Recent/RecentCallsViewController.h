@@ -20,4 +20,6 @@
 @property(nonatomic,assign) id<RecentViewControllerDelegate> delegate;
 @property(nonatomic,copy)   NSString    *username;
 
+- (void) refreshVerHeadViewWithIsShow : (BOOL) isShow;
+
 @end

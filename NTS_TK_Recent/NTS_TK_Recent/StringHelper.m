@@ -20,7 +20,12 @@
 {
     NSBundle *curBundle = [NSBundle bundleForClass:self.class];
     NSURL *url = [curBundle URLForResource:@"NTS_TK_Recent" withExtension:@"bundle"];
-    NSString *normalPath = [[NSBundle bundleWithURL:url] pathForResource:@"Data" ofType:@"sqlite"];
+    NSString *normalPath;
+    if (url) {
+        normalPath = [[NSBundle bundleWithURL:url] pathForResource:@"Data" ofType:@"sqlite"];
+    }else {
+        normalPath = [[NSBundle mainBundle] pathForResource:@"Data" ofType:@"sqlite"];
+    }
     return normalPath;
 }
 

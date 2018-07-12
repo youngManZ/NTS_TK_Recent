@@ -48,32 +48,48 @@
         {
             NSBundle *curBundle = [NSBundle bundleForClass:self.class];
             NSURL *url = [curBundle URLForResource:@"NTS_TK_Recent" withExtension:@"bundle"];
-            NSString *normalPath = [[NSBundle bundleWithURL:url] pathForResource:@"call_appear" ofType:@"png"];
-            _iconImageView.image = [UIImage imageWithContentsOfFile:normalPath];
+            if (url) {
+                NSString *normalPath = [[NSBundle bundleWithURL:url] pathForResource:@"call_appear" ofType:@"png"];
+                _iconImageView.image = [UIImage imageWithContentsOfFile:normalPath];
+            }else {
+                _iconImageView.image = [UIImage imageNamed:@"call_appear"];
+            }
         }
             break;
         case Dialled:
         {
             NSBundle *curBundle = [NSBundle bundleForClass:self.class];
             NSURL *url = [curBundle URLForResource:@"NTS_TK_Recent" withExtension:@"bundle"];
-            NSString *normalPath = [[NSBundle bundleWithURL:url] pathForResource:@"call_appear" ofType:@"png"];
-            _iconImageView.image = [UIImage imageWithContentsOfFile:normalPath];
+            if (url) {
+                NSString *normalPath = [[NSBundle bundleWithURL:url] pathForResource:@"call_appear" ofType:@"png"];
+                _iconImageView.image = [UIImage imageWithContentsOfFile:normalPath];
+            }else {
+                _iconImageView.image = [UIImage imageNamed:@"call_appear"];
+            }
         }
             break;
         case Received:
         {
             NSBundle *curBundle = [NSBundle bundleForClass:self.class];
             NSURL *url = [curBundle URLForResource:@"NTS_TK_Recent" withExtension:@"bundle"];
-            NSString *normalPath = [[NSBundle bundleWithURL:url] pathForResource:@"call_join" ofType:@"png"];
-            _iconImageView.image = [UIImage imageWithContentsOfFile:normalPath];
+            if (url) {
+                NSString *normalPath = [[NSBundle bundleWithURL:url] pathForResource:@"call_join" ofType:@"png"];
+                _iconImageView.image = [UIImage imageWithContentsOfFile:normalPath];
+            }else {
+                _iconImageView.image = [UIImage imageNamed:@"call_join"];
+            }
         }
             break;
         case Missed:
         {
             NSBundle *curBundle = [NSBundle bundleForClass:self.class];
             NSURL *url = [curBundle URLForResource:@"NTS_TK_Recent" withExtension:@"bundle"];
-            NSString *normalPath = [[NSBundle bundleWithURL:url] pathForResource:@"call_noanswer" ofType:@"png"];
-            _iconImageView.image = [UIImage imageWithContentsOfFile:normalPath];
+            if (url) {
+                NSString *normalPath = [[NSBundle bundleWithURL:url] pathForResource:@"call_noanswer" ofType:@"png"];
+                _iconImageView.image = [UIImage imageWithContentsOfFile:normalPath];
+            }else {
+                _iconImageView.image = [UIImage imageNamed:@"call_noanswer"];
+            }
         }
             break;
             

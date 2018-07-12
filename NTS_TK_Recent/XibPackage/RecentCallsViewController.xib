@@ -11,7 +11,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RecentCallsViewController">
             <connections>
+                <outlet property="backgroundView" destination="h3d-3b-nDl" id="APJ-b7-YCq"/>
+                <outlet property="noDataImage" destination="d5D-iB-0O5" id="kV3-e9-tFD"/>
                 <outlet property="tableView" destination="Ei0-fX-XR5" id="ROa-8Z-VxD"/>
+                <outlet property="tisImage" destination="7Pj-zp-TCL" id="b06-Sw-JaH"/>
+                <outlet property="verHeadView" destination="Bue-ih-awA" id="l0u-Yf-UWH"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -38,6 +42,68 @@
             </constraints>
             <viewLayoutGuide key="safeArea" id="i7N-5D-HeN"/>
             <point key="canvasLocation" x="14" y="41"/>
+        </view>
+        <view hidden="YES" contentMode="scaleToFill" id="h3d-3b-nDl">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="328"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d5D-iB-0O5">
+                    <rect key="frame" x="157" y="94" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="MHC-YH-8Nz"/>
+                        <constraint firstAttribute="height" constant="100" id="dS9-OY-kOl"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 暂无通话记录数据" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yze-2f-pvj">
+                    <rect key="frame" x="157" y="204" width="101.66666666666669" height="14.333333333333343"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Yze-2f-pvj" firstAttribute="centerX" secondItem="h3d-3b-nDl" secondAttribute="centerX" id="CYN-HM-5OZ"/>
+                <constraint firstItem="d5D-iB-0O5" firstAttribute="centerX" secondItem="h3d-3b-nDl" secondAttribute="centerX" id="JSQ-l7-Lmc"/>
+                <constraint firstItem="Yze-2f-pvj" firstAttribute="top" secondItem="d5D-iB-0O5" secondAttribute="bottom" constant="10" id="u8D-tH-dgD"/>
+                <constraint firstItem="d5D-iB-0O5" firstAttribute="centerY" secondItem="h3d-3b-nDl" secondAttribute="centerY" constant="-20" id="vDO-qI-4Tx"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Zdm-es-bI5"/>
+            <point key="canvasLocation" x="28" y="-964"/>
+        </view>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="Bue-ih-awA">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您好，您还没有进行号码认证，点击认证" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzp-nk-B9b">
+                    <rect key="frame" x="96.666666666666671" y="10" width="220.66666666666663" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="rpC-h1-ef6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.95686274509803915" green="0.70588235294117641" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7Pj-zp-TCL">
+                    <rect key="frame" x="71.666666666666671" y="10" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="2tU-jP-2kn"/>
+                        <constraint firstAttribute="width" constant="20" id="3wC-KS-hqS"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gzp-nk-B9b" firstAttribute="centerY" secondItem="Bue-ih-awA" secondAttribute="centerY" id="ZDP-gw-PQd"/>
+                <constraint firstItem="7Pj-zp-TCL" firstAttribute="centerY" secondItem="Bue-ih-awA" secondAttribute="centerY" id="eIV-sG-Pv0"/>
+                <constraint firstItem="gzp-nk-B9b" firstAttribute="centerY" secondItem="Bue-ih-awA" secondAttribute="centerY" id="g6s-jc-cY7"/>
+                <constraint firstItem="gzp-nk-B9b" firstAttribute="leading" secondItem="7Pj-zp-TCL" secondAttribute="trailing" constant="5" id="hgz-qS-HAW"/>
+                <constraint firstItem="gzp-nk-B9b" firstAttribute="centerX" secondItem="Bue-ih-awA" secondAttribute="centerX" id="vpq-UX-Yq5"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Jes-Ka-pSK"/>
+            <point key="canvasLocation" x="509" y="-1277"/>
         </view>
     </objects>
 </document>
