@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NTS_TK_Recent"
-  s.version      = "0.1.8"
+  s.version      = "0.1.9"
   s.summary      = "NTS_TK_Recent is tk recent."
 
   # This description is used to generate tags and improve search results.
