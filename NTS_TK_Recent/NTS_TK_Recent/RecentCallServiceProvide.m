@@ -20,7 +20,8 @@
 
 - (UIViewController *)recentCallsViewControllerWithUsername : (NSString *) username
 {
-    RecentCallsViewController *vc = [[RecentCallsViewController alloc] initWithNibName:@"RecentCallsViewController" bundle:[NSBundle mainBundle]];
+    NSBundle *curBundle = [NSBundle bundleForClass:self.class];
+    RecentCallsViewController *vc = [[RecentCallsViewController alloc] initWithNibName:@"RecentCallsViewController" bundle:curBundle];
     vc.username = username;
     return vc;
 }
