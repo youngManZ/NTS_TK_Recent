@@ -48,14 +48,14 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d5D-iB-0O5">
-                    <rect key="frame" x="157" y="94" width="100" height="100"/>
+                    <rect key="frame" x="157" y="114" width="100" height="100"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="100" id="MHC-YH-8Nz"/>
                         <constraint firstAttribute="height" constant="100" id="dS9-OY-kOl"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 暂无通话记录数据" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yze-2f-pvj">
-                    <rect key="frame" x="157" y="204" width="101.66666666666669" height="14.333333333333343"/>
+                    <rect key="frame" x="157" y="224" width="101.66666666666669" height="14.333333333333343"/>
                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
@@ -66,7 +66,7 @@
                 <constraint firstItem="Yze-2f-pvj" firstAttribute="centerX" secondItem="h3d-3b-nDl" secondAttribute="centerX" id="CYN-HM-5OZ"/>
                 <constraint firstItem="d5D-iB-0O5" firstAttribute="centerX" secondItem="h3d-3b-nDl" secondAttribute="centerX" id="JSQ-l7-Lmc"/>
                 <constraint firstItem="Yze-2f-pvj" firstAttribute="top" secondItem="d5D-iB-0O5" secondAttribute="bottom" constant="10" id="u8D-tH-dgD"/>
-                <constraint firstItem="d5D-iB-0O5" firstAttribute="centerY" secondItem="h3d-3b-nDl" secondAttribute="centerY" constant="-20" id="vDO-qI-4Tx"/>
+                <constraint firstItem="d5D-iB-0O5" firstAttribute="centerY" secondItem="h3d-3b-nDl" secondAttribute="centerY" id="vDO-qI-4Tx"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="Zdm-es-bI5"/>
