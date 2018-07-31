@@ -34,7 +34,11 @@
     if (object.callCount > 1) {
         _callNumberLable.text = [NSString stringWithFormat:@"(%ld)",(long)object.callCount];
     }
-    _phoneLable.text = object.callNumber;
+    if (object.callName.length > 0) {
+        _phoneLable.text = [NSString stringWithFormat:@"%@(%@)",object.callNumber,object.callName];
+    }else {
+        _phoneLable.text = [NSString stringWithFormat:@"%@",object.callNumber];
+    }
     
     //设置归属地 地址
     if (object.callNumberAddStr) {

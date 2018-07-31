@@ -29,11 +29,11 @@
     [super viewDidLoad];
     
     _datasource = [NSMutableArray arrayWithArray:[RecentTool readRecentCallArrayWithUsername:_username]];
-    [_tableView registerNib:[UINib nibWithNibName:@"RecentCallsTableViewCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"RecentCallsTableViewCell"];
-    [self setExtraCellLineHidden:_tableView];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadRecentCallData) name:@"recentUpdata" object:nil];
     NSBundle *curBundle = [NSBundle bundleForClass:self.class];
     NSURL *url = [curBundle URLForResource:@"NTS_TK_Recent" withExtension:@"bundle"];
+    [_tableView registerNib:[UINib nibWithNibName:@"RecentCallsTableViewCell" bundle:curBundle] forCellReuseIdentifier:@"recentCallsTableViewCell"];
+    [self setExtraCellLineHidden:_tableView];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadRecentCallData) name:@"recentUpdata" object:nil];
     if (url) {
         NSString *normalPath = [[NSBundle bundleWithURL:url] pathForResource:@"zanwushuju" ofType:@"png"];
         NSString *tisPath = [[NSBundle bundleWithURL:url] pathForResource:@"tis " ofType:@"png"];
@@ -82,10 +82,12 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    RecentCallsTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"RecentCallsTableViewCell"];
+    RecentCallsTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"recentCallsTableViewCell" forIndexPath:indexPath];
     
     if (!cell) {
-        cell = [[RecentCallsTableViewCell alloc] initWithStyle:0 reuseIdentifier:@"RecentCallsTableViewCell"];
+        NSBundle *curBundle = [NSBundle bundleForClass:self.class];
+        cell = [[curBundle loadNibNamed:@"RecentCallsTableViewCell" owner:nil options:nil] objectAtIndex:0];
+        [cell setValue:@"recentCallsTableViewCell" forKey:@"reuseIdentifier"];
     }
     
     cell.cellTag = indexPath.row;
